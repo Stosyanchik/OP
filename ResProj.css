@@ -1,0 +1,129 @@
+body{
+font-family: 'PiratesBonney', sans-serif ;
+font-family: 'PiratesDrake', sans-serif ;
+font-family: 'PiratesStoertebecker', sans-serif ;
+font-family: 'PiratesBlackbeard', sans-serif ;
+}
+.fonts{
+    text-align: left ;
+    float: left ;
+    color: snow ;
+}
+html{
+    background-color:#000000 ;
+    width: 1285,.6px;
+    height: 1000px;
+}
+div{
+    display: block;
+}
+.container{
+width: 100%;
+margin-left: auto ;
+margin-right: auto ;
+padding-left: 0.5rem ;
+padding-right: 0.5rem ;
+}
+@media(min-width: 475px) {
+    .container{
+        max-width: 475px;
+    }
+}
+@media(min-width: 640px) {
+    .container{
+        max-width: 640px;
+    }
+}
+@media(min-width: 768px) {
+    .container{
+        max-width: 768px;
+    }
+}
+@media(min-width: 1024x) {
+    .container{
+        max-width: 1024px;
+    }
+}
+@media(min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+    }
+}
+@media(min-width: 1536px) {
+    .container{
+        max-width: 1536px;
+    }
+}
+.log{
+    height: 84px ;
+    width: 250px ;
+    float: left ;
+    object-fit: cover ;
+    position: relative ;
+}
+.centered {
+    height: 330px ;
+    width: 610px ;
+    display: block ;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.signup-button {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+  .pic-text{
+   height: 16px;
+   width: 190px;
+    text-align: center;
+    font-size: 2rem;
+display:block ;
+position: absolute;
+top: 73%;
+left: 50%;
+transform: translate(-50%, -73%);
+  }
+.reqq2{
+    height: 300px;
+    width: 400px;
+    display:block;
+    position: static;
+    top: 98%;
+    left: 10%;
+ 
+}
+.shipp{
+    height: 132px;
+    width: 228px;
+}
+.boxx{
+    width: 20rem;
+    height: 20rem;
+    background-color: snow;
+    display: flex;
+    overflow-y: scroll;
+    top: 50%;
+}
+.lll{
+    width: 20rem;
+    height: 20rem;
+
+}
+.boxx div{
+    min-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 10rem;
+    color: snow;
+}
